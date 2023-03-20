@@ -1,0 +1,64 @@
+.page-container {
+    height:100vh;
+    padding: 10px;
+    color: black;
+    background-color: gray;
+    background-image: url(".idea/images/background.jpg");
+    background-size: cover;
+
+    display: grid;
+
+    grid-template-areas:
+    "a1 a1 a1 a1 a1 a1 a1"
+    ". . a2 a2 a2 . ."
+    "a6 a6 a6 a6 a6 a6 a6";
+
+    grid-gap: 10px;
+    grid-template-rows: 50px auto 50px;
+}
+
+.header {
+    background-color: lightgray;
+    grid-area: a1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif, Arial;
+}
+
+.form-container {
+    background-color: lightseagreen;
+    opacity: 0.9;
+    grid-area: a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+label {
+    font-family: sans-serif, Arial;
+    font-size: 13px;
+}
+
+.form-input-name, .form-input-email,
+.form-input-password, .form-input-repeat-password {
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: lightgray;
+    margin: 5px;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: lightgray;
+    grid-area: a6;
+    border-radius: 10px;
+}
