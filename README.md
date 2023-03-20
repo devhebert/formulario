@@ -1,5 +1,5 @@
 # formulario
-Este mini projeto apresenta um formulário simples, desenvolvida com HTML, CSS e JavaScript. Nele foi adicionado validações apara email, campos nulos, emoji.
+Este mini projeto apresenta um formulário simples, desenvolvido com HTML, CSS e JavaScript. Nele foi adicionado validações de email, campos nulos, emoji e password.
 <details>
 <summary>Exibir:</summary>
 
