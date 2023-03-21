@@ -37,6 +37,18 @@
     align-items: center;
     flex-direction: column;
     border-radius: 50px;
+    animation-name: changeColor;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changeColor {
+    0%{ background-color: lightgray}
+    25%{ background-color: violet}
+    50%{ background-color: darkmagenta}
+    100%{ background-color: deepskyblue}
 }
 
 label {
@@ -55,6 +67,13 @@ label {
 
 .submit-button {
     margin-top: 20px;
+    background: ghostwhite;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.submit-button:hover {
+    background-color: palevioletred;
 }
 
 .footer {
